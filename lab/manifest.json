@@ -1,0 +1,18 @@
+{
+    "name": "Lab project01",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Keep eyes.",
+    
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.google.com/*"
+            ],
+            "js": [
+                "lib/jquery-3.6.0.min.js",
+                "js/content.js"
+            ]
+        }
+    ]
+}
