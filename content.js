@@ -1,0 +1,1 @@
+document.body.insertAdjacentText("afterBegin","Welcome");
